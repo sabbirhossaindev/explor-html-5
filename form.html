@@ -11,6 +11,31 @@
 </style>
 <body>
     <h1>This is my from.</h1>
-    <form action=""></form>
+    <form action="">
+        <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+        <p>Email: <input type="email" name="name" placeholder="Enter your email" id=""></p>
+        <fieldset>
+            <legend>select your pita</legend>
+            <p>
+                <label for="chitoy"><input type="radio" name="pita" id="chitoy"> chitoy</label>
+            </p>
+            <p><label for="vaba"><input type="radio" name="pita" id="vapa"> vapa</label></p>
+            <p><label for="telpita"><input type="radio" name="pita" id="telpita"> telpita</p></label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select your vorta</legend>
+            <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">surisa</label></p>
+            <p><label for="bagun"><input type="checkbox" name="vorta" id="bagun">bagun</label></p>
+            <p><label for="suski"><input type="checkbox" name="vorta" id="suski">suski</label></p>
+        </fieldset>
+        <p>special Instruction
+            <br>
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
 </body>
 </html>
