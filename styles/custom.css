@@ -1,0 +1,38 @@
+/* custom property use */
+:root {
+    --side-width:200px;
+    --dark-border: 2px solid black;
+    --main-color: orange;
+    --border-color: slateblue;
+    --background-color: slateblue;
+}
+h1{
+    color: var(--main-color);
+}
+p{
+    color: var(--main-color);
+}
+h2{
+    border: 2px solid var(--border-color);
+    color: var(--main-color);
+}
+footer{
+    clear: both;
+    border: var(--dark-border);
+    color: var(--main-color);
+}
+.side-nav,
+.blogs{
+    float: left;
+    height: 500px;
+}
+aside{
+    background-color: greenyellow;
+    width: var(--side-width);
+}
+.blogs{
+    background-color: tomato;
+    width: calc(100% -200px);
+}
+
+/* custom property use */
