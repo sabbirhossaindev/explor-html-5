@@ -1,0 +1,40 @@
+/* position static  */
+.div1{
+    border: 3px solid green;
+    padding: 5px;
+    position: static;
+    top: 20px;
+}
+
+/* position relative  */
+.div2{
+    border: 3px solid red;
+    padding: 5px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+/* position fixed  */
+.navber-div{
+    border: 3px solid green;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+/* position relative   */
+.div3{
+    border: 3px solid blue;
+    padding: 5px;
+    position: relative;
+    height: 400px;
+    top: 40px;
+}
+/* position absolute  */
+.div4{
+    border: 3px solid orangered;
+    padding: 5px;
+    position: absolute;
+    left: 1100px;
+    bottom: 10px;
+}
