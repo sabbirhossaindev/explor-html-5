@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>some html 5 tag example.</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid grey;
+            padding: 0px 10px;
+        }
+        canvas{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- video tag example -->
+    <video controls="controls" src="media/video/damo.mp4" height="400px" width="400px">
+        Your browser does not support the HTML5 Video element.
+    </video>
+    <br>
+    <!-- audio tag example -->
+    <audio controls="controls" src="media/audio/cow.wav">
+        Your browser does not support the HTML5 Audio element.
+    </audio>
+
+    <!-- form tag example -->
+    <form action="table.html">
+        <caption>Pita related form</caption>
+        <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+        <p>Email: <input type="email" name="name" placeholder="Enter your email" id=""></p>
+        <fieldset>
+            <legend>select your pita</legend>
+            <p><label for="chitoy"><input type="radio" name="pita" id="chitoy"> chitoy</label></p>
+            <p><label for="vaba"><input type="radio" name="pita" id="vapa"> vapa</label></p>
+            <p><label for="telpita"><input type="radio" name="pita" id="telpita"> telpita</p></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>select your vorta</legend>
+            <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">surisa</label></p>
+            <p><label for="bagun"><input type="checkbox" name="vorta" id="bagun">bagun</label></p>
+            <p><label for="suski"><input type="checkbox" name="vorta" id="suski">suski</label></p>
+        </fieldset>
+        <p>special Instruction
+            <br>
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+
+    <!-- table tag example -->
+    <table>
+        <caption>Salary related table</caption>
+        <colgroup>
+            <col style="background-color:#adff2f;">
+            <col span="3" style="background-color:#f0e68c;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill gats</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry page</td>
+                <td>google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuku</td>
+                <td>fb</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- canvas tag example -->
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+
+    <!-- figure & figcaption tag example -->
+    <figure>
+		<img src="img/sec.png" alt="Space Shuttle">
+		<figcaption>CSS style property</figcaption>
+	</figure>
+
+    <!-- mark tag example -->
+    <p>This is some <mark>highlighted</mark> text.</p>
+	<p>Here are <mark>some more highlighted</mark> text.</p>
+
+    <!-- meter tag example -->
+    <p>Disk Usage: <meter value="0.8">80%</meter></p>
+    <p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p>
+    <p>Pollution Level: <meter low="60" high="80" max="100" value="85">Very High</meter></p>
+</body>
+</html>
